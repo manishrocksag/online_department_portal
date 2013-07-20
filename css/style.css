@@ -1,0 +1,71 @@
+﻿/* Grafik & Css ve Html Hüseyin KINAY ( Bu menü uygulaması psdup.com için oluşturulmuştur. )*/
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url(../images/site-bg.gif);
+	margin: 0px;
+	padding: 0px;
+}
+#tasiyici {
+	
+	padding: 0px;
+	
+}
+#sol {
+	background-image: url('../images/sol.png');
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 67px;
+	float: left;
+}
+#sag {
+	background-image: url('../images/sag.png');
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 67px;
+	float:left;
+}
+#psdup {
+	position: absolute;
+	z-index: 1;
+	background-image: url('../images/ust.png');
+	background-repeat: repeat-x;
+	margin-top: 10px;
+}
+ul, li {
+	height: 67px;
+	line-height: 62px;
+}
+#menu {
+	background-image: url('../images/bg.png');
+	background-position: left;
+	background-repeat: repeat-x;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu li {
+	float: left;
+	text-align: center;
+}
+#menu li a {
+	color: #ffffff;
+	z-index: 2;
+	position: relative;
+	cursor: pointer;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+	padding: 0 20px 0 20px;
+	text-shadow: 1px 1px #000000;
+}
+#imza{
+float:left;
+color:#ffffff;
+text-align:center;
+font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+font-size:10pt;
+font-weight:bold;
+
+	}
