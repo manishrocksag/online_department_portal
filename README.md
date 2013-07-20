@@ -2,7 +2,8 @@ online_department_portal
 ========================
 The proposed system is to make an online web portal for Computer Science Department, so that everyone can get information about department, students can easily communicate with teachers from anywhere. Teachers can easily communicate with the students, and can keep records of every student easily and efficiently. The proposed system could be accessed from any corner of the world on net.
 
-• Faculties: This module gives profile information of various faculties associated to the department.
+Implementation:
+> Faculties: This module gives profile information of various faculties associated to the department.
 > It gives profile information of all the faculties.
 > Anyone can contact to these faculties and post queries to them.
 >They can upload E-books and other reading materials.
@@ -22,6 +23,7 @@ The proposed system is to make an online web portal for Computer Science Departm
 >He will handle the number of students and incase any student or faculty leaves he will edit the record accordingly.
 
 Description:
+
 Admin Module:
 1.	Add Students and Faculty Details :
 Create a form for administrator to add new student/Faculty. And insert new entry on LoginMaster table. This form has 1drop down list for selection of student or faculty.
@@ -61,6 +63,7 @@ The faculty should be able to view the notices uploaded on the common notice boa
 Create a form where all notice title are display on the combo and the admin can select any notice and can delete/edit any of the notice.
 
 Tools & Technology
+
 Technology : 
 Server Side : Java(JDK6.0), Servlet2.4, JSP2.0, EL, JSTL
 Client Side : HTML, JavaScript, CSS
